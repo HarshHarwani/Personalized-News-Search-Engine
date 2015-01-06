@@ -1,0 +1,23 @@
+@relation user_categories
+
+@attribute Science_and_Technology numeric
+@attribute Lifestyle numeric
+@attribute Entertainment numeric
+@attribute Travel numeric
+@attribute Business numeric
+@attribute Automobiles numeric
+@attribute World_news numeric
+@attribute Miscellaneous numeric
+@attribute userid string
+
+% Each data row corresponds to a single user
+@data 
+0,8,3,9,0,2,0,0,user1
+0,2,5,6,0,1,0,0,user2
+0,4,2,9,0,1,0,3,user3
+2,5,0,0,0,8,0,0,user4
+5,3,0,0,0,4,2,0,user5
+8,3,0,0,0,3,0,0,user6
+0,1,0,0,6,1,7,0,user7
+2,0,0,1,9,0,6,0,user8
+0,0,1,0,8,1,6,1,user9
